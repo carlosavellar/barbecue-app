@@ -1,0 +1,39 @@
+{
+  "name": "barbecue-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carlosavellar/barbecue-app.git",
+  "author": "carlosavellar <carlos.avellar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build": "npm run type-check && webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "type-check": "tsc"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.23",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
